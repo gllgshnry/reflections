@@ -1,0 +1,18 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates a .git file, which contains the metadata for
+the repository. Initialization does not commit any of the files, meaning that
+there are no files being tracked as of the creation of the repository. 
+git status will inform you of what is present in the directory/repository, yet
+untracked. 
+
+
+2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area only contains files that you want tracked, where the working
+directory contains all the files in it. This allows the user to commit only the
+files that have had a logical change, or that need to be tracked together. 
+
+
+3. 
