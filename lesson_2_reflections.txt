@@ -56,4 +56,17 @@ both the previous commits that were involved in the merge. Hence two nodes meet
 at the merged node.
 
 
-7. 
+7. What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+Pros: automatic merging saves the tedious work of going back and forth between
+different codes and seeing what is different, the automatic merge simply unites
+the two. Automatic merging will also detect conflicts and inform the user so
+the user can have more input into the merge.
+Cons: the fact that conflicts may exist can significantly slow the coding
+process. An automatic merge may merge certain points that are undesirable, Git
+does its best to determine the best merging method, where a manual merge would
+catch the desired traits.
+
+
+8. 
