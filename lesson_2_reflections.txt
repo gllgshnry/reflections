@@ -43,4 +43,17 @@ Any branches are then shown by using a line that branches off from the last
 commit used in master branch. o------o-------o--------o--------o (master)
                                      \-------o--------o(branch)
 
-6. 									 		  
+6. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+Merging two branches causes the changes that are common in both branches to be
+consolidated, meaning they are incorporated into one commit. In addition any
+additions done in one branch will also be added to the new commit. Any changes
+that involved removal from the common parent will stay removed in the final
+commit. Git tries to incorporate these changes, which involve both branches,
+and can be represented as one node in the diagram. The node then has as parents
+both the previous commits that were involved in the merge. Hence two nodes meet
+at the merged node.
+
+
+7. 
