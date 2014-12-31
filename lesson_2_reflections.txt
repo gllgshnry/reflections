@@ -24,3 +24,23 @@ directory. This shows whether a large enough change has been performed to commit
 as well as to see what is going to be committed. If there is any discrepancy it 
 can be shown using the previous commands including "git status" to see what else
 is on the working directory.
+
+4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches are helpful to keep track of unofficial changes such as creating a new
+mode for a game, an alternate language version of your code or project, or
+anything that is a significant change from the main project. It can be used to
+experiment with new ideas that are not essential to the main project, but are
+worth keeping track. Using branches ensures that the main project or "master"
+is kept separate from the side projects.
+
+
+5. How do the diagrams help you visualize the branch structure?
+
+The master branch is a single flow, as it only contains the reachable commits.
+Any branches are then shown by using a line that branches off from the last
+commit used in master branch. o------o-------o--------o--------o (master)
+                                     \-------o--------o(branch)
+
+6. 									 		  
