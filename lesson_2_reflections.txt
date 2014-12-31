@@ -15,4 +15,12 @@ directory contains all the files in it. This allows the user to commit only the
 files that have had a logical change, or that need to be tracked together. 
 
 
-3. 
+3. How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can use the commands "git diff" and "git diff --staged" to look at the
+changes between the latest commit and the current file that is in the working
+directory. This shows whether a large enough change has been performed to commit
+as well as to see what is going to be committed. If there is any discrepancy it 
+can be shown using the previous commands including "git status" to see what else
+is on the working directory.
