@@ -47,4 +47,21 @@ mode where otherwise you will not be able to access GitHub and know what the
 state of the project is. Once you go online again you can fetch the state of
 the remote without having to commit your local changes.
 
-5. 
+
+5. How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+I feel that collaborating without using these tools would be very difficult.
+Without the tools you have to have the link to the repository and keep track of
+your changes manually. When you want to send an update to someone else you have
+to make sure you email them, and describe the changes to them. Proof-reading 
+any "pull requests" (or change requests) would have to be done on a word
+processor if you want to comment line-by-line. GitHub gives a good visual on 
+the changes that have occured and keeps track semi-automatically.
+
+What may be easier is to actually implement the changes that collaborators are
+workign on, but this can be a double-sword in that it may allow some errors to
+pass....
+
+
+6. 
