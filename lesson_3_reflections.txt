@@ -37,4 +37,14 @@ commit. Branches usually include any significant changes to the "core" project
 that may not yet be integrated due to required testing and bugs.
 
 
-4. 
+4. What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+The last known state of the remote is origin/master. Knowing this allows the
+user to compare the differences between what was last updated on GitHub and
+what is stored in the local master branch. This is useful if working in offline
+mode where otherwise you will not be able to access GitHub and know what the
+state of the project is. Once you go online again you can fetch the state of
+the remote without having to commit your local changes.
+
+5. 
