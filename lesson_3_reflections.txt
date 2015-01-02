@@ -15,4 +15,26 @@ will be pulling. Automatic pulls will change your repository any time a new
 commit is pushed by someone, and may result in omitting your current local work
 
 
-3. 
+3. Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+You use a fork to get access the repository of another GitHub user. A fork is
+used when you do not have access to modify the repository and if you want to do
+some work to change its features. By forking you save the repository on your
+GitHub account and are able to make modifications. A fork also makes it wasy to
+collaborate with others, since it is native to GitHub. Forking is exclusive to
+GitHub.
+
+A clone is used when you want to locally save another person's repository on
+your local working directory. Clones can then be modified locally. This means
+that if you are collaborating with others then you must give them specific
+permissions, and information about your repository to be able to access it.
+A clone can be made of forked repositories from GitHub, as well as of other
+people's repositories. A clone is related to Git and not GitHub exclusively.
+
+A branch can be any commit or sequence of commits that differs from the master
+commit. Branches usually include any significant changes to the "core" project
+that may not yet be integrated due to required testing and bugs.
+
+
+4. 
