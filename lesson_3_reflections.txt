@@ -64,4 +64,18 @@ workign on, but this can be a double-sword in that it may allow some errors to
 pass....
 
 
-6. 
+6. When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+A separate branch may be used when you want to add a big change or a logically
+different change to the project. By using a branch you can collaborate on the
+chagne with someone else who may have to merge the change into their master.
+The change may only be incorporated into master only after all the bugs have
+been fixed. Once this is done then the branch may be deleted safely. This
+has the advantage of not breaking what has been done, but requires more work.
+
+Working directly with the master branch means that the changes are immediate
+and is easier to do. This is more prone to errors and may want to be avoided if
+the changes could introduce bugs.
+
+7. 
